@@ -1,8 +1,9 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import React from 'react'
+import FlightDetails from './components/FlightDetails'
+import Details from './components/Details'
 
 export default function Home() {
   return (
-    <>Share Trip</>
-  );
+   <Details />
+  )
 }
