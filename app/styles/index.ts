@@ -1,15 +1,26 @@
 export const navbar ={
-    background:"green",
-    height:"68px"
+    background:"white",
+    height:"12%"
 }
 
 export const mainContainer ={
   background: "#EBF0F5",
-  height: "655px"
+  height: "88%"
 }
 
 export const secondContainer ={
-    background: "red",
-    height: "655px",
    width: "84%"
+  }
+
+  export const title ={
+    font: "Murecho",
+    fontSize:"13px",
+    lineHeight:"18px",
+    color:"#5A6573"
+  }
+  export const colorTitle ={
+    color:"#1882FF",
+    font: "Murecho",
+    fontSize:"13px",
+    lineHeight:"18px"
   }
