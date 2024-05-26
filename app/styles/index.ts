@@ -38,6 +38,14 @@ export const secondContainer ={
     lineHeight:"24px" 
 }
 
+export const elipse =  {
+  width: "3px",
+  height: "3px",
+  background: "#9BA6B2",
+  borderRadius: "16px",
+  lineHeight:"24px" 
+}
+
 export const title2 ={
   fontSize:"13px",
   lineHeight:"16px",

@@ -3,6 +3,7 @@ import React from "react";
 import {
   circle,
   colorTitle,
+  elipse,
   mainContainer,
   navbar,
   secondContainer,
@@ -125,16 +126,40 @@ export default function Details() {
                         DAC → JFK
                       </Typography>
                       <Grid container>
-                        <Grid item xs={1.5}>
+                        <Grid item xs={1.20}>
                           <Typography style={title2}>Round Trip</Typography>
                         </Grid>
-                        <Grid item  style={{background:"#9BA6B2",height:"3px",width:"3px",borderRadius:"50%",paddingTop:"5px"}}>
-
+                        <Grid
+                          item
+                          xs={0.25}
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          <Grid style={elipse}></Grid>
                         </Grid>
 
-                        <Grid item xs={3}>
-                          <Typography>
-                          25 Mar - 4 Apr 2023
+                        <Grid item xs={2.125}>
+                          <Typography style={title2}>
+                            25 Mar - 4 Apr 2023
+                          </Typography>
+                        </Grid>
+                        <Grid
+                          item
+                          xs={0.25}
+                          style={{
+                            display: "flex",
+                            justifyContent: "center",
+                            alignItems: "center",
+                          }}
+                        >
+                          <Grid style={elipse}></Grid>
+                        </Grid>
+                        <Grid item xs={2}>
+                          <Typography style={title2}>
+                            1 stop
                           </Typography>
                         </Grid>
                       </Grid>
