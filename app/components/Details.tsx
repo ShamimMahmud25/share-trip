@@ -11,6 +11,9 @@ import {
   title,
   title2,
 } from "../styles";
+import FlightDetails from "./FlightDetails";
+import FlightDetailsSecond from "./FlightDetailsSecond";
+import AirLinesDetails from "./AirLinesDetails";
 
 export default function Details() {
   return (
@@ -92,23 +95,21 @@ export default function Details() {
                 style={{ height: "100%", background: "white" }}
               >
                 <Grid
-                  item
                   container
                   style={{
                     height: "15%",
                     padding: "16px 20px",
                     borderWidth: "0px 0px 1px 0px",
                     borderColor: "#EBF0F5",
-                    
                   }}
                 >
                   <Grid item container>
                     <Grid
                       item
-                      xs={1}
+                      xs={0.5}
                       style={{
                         display: "flex",
-                        justifyContent: "center",
+                        justifyContent: "left",
                         alignItems: "center",
                       }}
                     >
@@ -116,7 +117,7 @@ export default function Details() {
                         1
                       </Typography>
                     </Grid>
-                    <Grid item xs={10}>
+                    <Grid item xs={10.5}>
                       <Typography
                         style={{
                           color: "black",
@@ -164,15 +165,15 @@ export default function Details() {
                         </Grid>
                       </Grid>
                     </Grid>
-                    <Grid item xs={1} style={{padding:"4px 8px"}}>
-                      <Typography style={time}>
-                      33h 20m
-                      </Typography>
+                    <Grid item xs={1} style={{ padding: "4px 8px" }}>
+                      <Typography style={time}>33h 20m</Typography>
                     </Grid>
                   </Grid>
                 </Grid>
-                <Grid item container style={{height:"85%",padding:"16px",background:"blue"}}>
-
+                <Grid  container style={{ height: "85%", padding: "16px",display:"flex",justifyContent:"flex-start", flexDirection:"column" }}>
+                  <FlightDetails />
+                  <FlightDetailsSecond />
+                  <AirLinesDetails />
                 </Grid>
               </Grid>
             </Grid>

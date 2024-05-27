@@ -16,13 +16,13 @@ export const secondContainer ={
 
   export const title ={
     font: "Murecho",
-    fontSize:"13px",
+    //fontSize:"13px",
     lineHeight:"18px",
     color:"#5A6573"
   }
   export const colorTitle ={
     color:"#1882FF",
-    font: "Murecho",
+    // font: "Murecho",
     fontSize:"13px",
     lineHeight:"18px"
   }
@@ -45,6 +45,14 @@ export const elipse =  {
   borderRadius: "16px",
   lineHeight:"24px" 
 }
+export const  locationElipse=  {
+  width: "8px",
+  height: "4px",
+  background: "#9BA6B2",
+  borderRadius: "16px",
+  lineHeight:"24px",
+  marginLeft:"3px" 
+}
 
 export const title2 ={
   fontSize:"13px",
@@ -59,4 +67,49 @@ export const time ={
   color:"#1882FF",
   fontWeight:"475",
   padding:"0px 0px 2px 0px"
+}
+
+export const flightTitle ={
+  fontSize:"13px",
+  lineHeight:"18px",
+  color:"#1A2B3D",
+  fontWeight:"475"
+}
+export const terminalTitle ={
+  fontSize:"13px",
+  lineHeight:"18px",
+  color:"#5A6573",
+  fontWeight:"475"
+}
+export const title3 ={
+  //font: "Murecho",
+  fontSize:"13px",
+  lineHeight:"18px",
+  color:"#5A6573",
+  fontWeight:"400"
+}
+
+export const title4 ={
+  fontSize:"16px",
+  lineHeight:"24px",
+  color:"#1A2B3D",
+  fontWeight:"600"
+}
+export const title5 ={
+  fontSize:"14px",
+  lineHeight:"20px",
+  color:"#5A6573",
+  fontWeight:"400"
+}
+export const title6 ={
+  fontSize:"14px",
+  lineHeight:"18px",
+  color:"#3E4957",
+  fontWeight:"475"
+}
+export const title7 ={
+  fontSize:"14px",
+  lineHeight:"18px",
+  color:"#5A6573",
+  fontWeight:"400"
 }
