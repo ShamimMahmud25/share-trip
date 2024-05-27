@@ -7,6 +7,7 @@ import {
   mainContainer,
   navbar,
   secondContainer,
+  time,
   title,
   title2,
 } from "../styles";
@@ -94,10 +95,11 @@ export default function Details() {
                   item
                   container
                   style={{
-                    height: "72px",
+                    height: "15%",
                     padding: "16px 20px",
                     borderWidth: "0px 0px 1px 0px",
                     borderColor: "#EBF0F5",
+                    
                   }}
                 >
                   <Grid item container>
@@ -126,7 +128,7 @@ export default function Details() {
                         DAC → JFK
                       </Typography>
                       <Grid container>
-                        <Grid item xs={1.20}>
+                        <Grid item xs={1.2}>
                           <Typography style={title2}>Round Trip</Typography>
                         </Grid>
                         <Grid
@@ -158,13 +160,19 @@ export default function Details() {
                           <Grid style={elipse}></Grid>
                         </Grid>
                         <Grid item xs={2}>
-                          <Typography style={title2}>
-                            1 stop
-                          </Typography>
+                          <Typography style={title2}>1 stop</Typography>
                         </Grid>
                       </Grid>
                     </Grid>
+                    <Grid item xs={1} style={{padding:"4px 8px"}}>
+                      <Typography style={time}>
+                      33h 20m
+                      </Typography>
+                    </Grid>
                   </Grid>
+                </Grid>
+                <Grid item container style={{height:"85%",padding:"16px",background:"blue"}}>
+
                 </Grid>
               </Grid>
             </Grid>

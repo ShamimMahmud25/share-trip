@@ -52,3 +52,11 @@ export const title2 ={
   color:"#5A6573",
   fontWeight:"400"
 }
+
+export const time ={
+  fontSize:"12px",
+  lineHeight:"16px",
+  color:"#1882FF",
+  fontWeight:"475",
+  padding:"0px 0px 2px 0px"
+}
