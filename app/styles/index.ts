@@ -1,15 +1,62 @@
+import { Cormorant_SC } from "next/font/google"
+
 export const navbar ={
-    background:"green",
-    height:"68px"
+    background:"white",
+    height:"12%"
 }
 
 export const mainContainer ={
   background: "#EBF0F5",
-  height: "655px"
+  height: "88%"
 }
 
 export const secondContainer ={
-    background: "red",
-    height: "655px",
    width: "84%"
   }
+
+  export const title ={
+    font: "Murecho",
+    fontSize:"13px",
+    lineHeight:"18px",
+    color:"#5A6573"
+  }
+  export const colorTitle ={
+    color:"#1882FF",
+    font: "Murecho",
+    fontSize:"13px",
+    lineHeight:"18px"
+  }
+
+  export const circle =  {
+    width: "24px",
+    height: "24px",
+    background: "#1882FF",
+    color: "white",
+    borderRadius: "16px",
+    fontSize: "16px",
+    fontWeight: "bold",
+    lineHeight:"24px" 
+}
+
+export const elipse =  {
+  width: "3px",
+  height: "3px",
+  background: "#9BA6B2",
+  borderRadius: "16px",
+  lineHeight:"24px" 
+}
+
+export const title2 ={
+  fontSize:"13px",
+  lineHeight:"16px",
+  color:"#5A6573",
+  fontWeight:"400"
+}
+
+export const time ={
+  fontSize:"12px",
+  lineHeight:"16px",
+  color:"#1882FF",
+  fontWeight:"475",
+  padding:"0px 0px 2px 0px"
+}
