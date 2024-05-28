@@ -14,6 +14,10 @@ import {
 import FlightDetails from "./FlightDetails";
 import FlightDetailsSecond from "./FlightDetailsSecond";
 import AirLinesDetails from "./AirLinesDetails";
+import Layover from "./Layover";
+import Trip from "./Trip";
+import AirLinesDetailsSecond from "./AirLineDetailsSecond";
+import Destination from "./Destination";
 
 export default function Details() {
   return (
@@ -94,86 +98,15 @@ export default function Details() {
                 container
                 style={{ height: "100%", background: "white" }}
               >
-                <Grid
-                  container
-                  style={{
-                    height: "15%",
-                    padding: "16px 20px",
-                    borderWidth: "0px 0px 1px 0px",
-                    borderColor: "#EBF0F5",
-                  }}
-                >
-                  <Grid item container>
-                    <Grid
-                      item
-                      xs={0.5}
-                      style={{
-                        display: "flex",
-                        justifyContent: "left",
-                        alignItems: "center",
-                      }}
-                    >
-                      <Typography style={circle} textAlign={"center"}>
-                        1
-                      </Typography>
-                    </Grid>
-                    <Grid item xs={10.5}>
-                      <Typography
-                        style={{
-                          color: "black",
-                          lineHeight: "24px",
-                          fontSize: "18px",
-                          fontWeight: "600",
-                        }}
-                      >
-                        DAC → JFK
-                      </Typography>
-                      <Grid container>
-                        <Grid item xs={1.2}>
-                          <Typography style={title2}>Round Trip</Typography>
-                        </Grid>
-                        <Grid
-                          item
-                          xs={0.25}
-                          style={{
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center",
-                          }}
-                        >
-                          <Grid style={elipse}></Grid>
-                        </Grid>
-
-                        <Grid item xs={2.125}>
-                          <Typography style={title2}>
-                            25 Mar - 4 Apr 2023
-                          </Typography>
-                        </Grid>
-                        <Grid
-                          item
-                          xs={0.25}
-                          style={{
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center",
-                          }}
-                        >
-                          <Grid style={elipse}></Grid>
-                        </Grid>
-                        <Grid item xs={2}>
-                          <Typography style={title2}>1 stop</Typography>
-                        </Grid>
-                      </Grid>
-                    </Grid>
-                    <Grid item xs={1} style={{ padding: "4px 8px" }}>
-                      <Typography style={time}>33h 20m</Typography>
-                    </Grid>
-                  </Grid>
-                </Grid>
+                 <Trip/>
                 <Grid  container style={{ height: "85%", padding: "16px",display:"flex",justifyContent:"flex-start", flexDirection:"column" }}>
                   <FlightDetails />
                   <FlightDetailsSecond />
                   <AirLinesDetails />
+                  <Layover />
+                  <FlightDetailsSecond />
+                  <AirLinesDetailsSecond/>
+                  <Destination/>
                 </Grid>
               </Grid>
             </Grid>

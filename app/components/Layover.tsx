@@ -1,20 +1,12 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
-import {
-  flightTitle,
-  locationElipse,
-  terminalTitle,
-  title,
-  title2,
-  title3,
-} from "../styles";
+import { airportStyle, flightTitle, locationElipse } from "../styles";
 
-export default function FlightDetails() {
+export default function Layover() {
   return (
     <Grid
       container
-      item
-      style={{ height: "48px", padding: "4px 0px" }}
+      style={{ padding: "4px 0px 4px 0px", height: "48px" }}
       gap={"12px"}
     >
       <Grid
@@ -34,24 +26,17 @@ export default function FlightDetails() {
           <Grid style={locationElipse}></Grid>
         </Grid>
       </Grid>
-      <Grid item xs={11} container>
-        <Grid
-          item
-          container
-          style={{ padding: "10px 16px 12px 16px", background: "#F5F7FA" }}
-        >
-          <Grid item xs={6}>
+      <Grid item xs={11} container style={airportStyle} gap={"8px"} >
+         <Grid item xs={5.9} height={"18px"}>
             <Typography style={flightTitle} textAlign={"left"}>
-              Departure from Dhaka
+            Layover at Dubai: 12 hr 20 min
             </Typography>
-          </Grid>
-          <Grid item xs={6}>
-            <Typography style={terminalTitle} textAlign={"right"}>
-              Terminal 1:{" "}
-              <span style={title3}>Hazrat Shahjalal International Airport</span>
+         </Grid>
+         <Grid item xs={5.9} height={"18px"}>
+            <Typography style={flightTitle} textAlign={"right"}>
+            Layover at Dubai: 12 hr 20 min
             </Typography>
-          </Grid>
-        </Grid>
+         </Grid>
       </Grid>
     </Grid>
   );

@@ -1,14 +1,11 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
-import { title6, title7 } from "../styles";
+import { title6, title7, title8 } from "../styles";
+import AirLineInfo from "./AirLineInfo";
 
 export default function AirLinesDetails() {
   return (
-    <Grid
-      container
-      style={{ height: "140px" }}
-      gap={"12px"}
-    >
+    <Grid container style={{ height: "140px" }} gap={"12px"}>
       <Grid
         item
         xs={0.5}
@@ -21,53 +18,36 @@ export default function AirLinesDetails() {
         <img src="/divider.svg" height={"53px"} width={"32px"} />
       </Grid>
       <Grid item xs={11} container gap={"16px"} padding={"16px 0"}>
-        <Grid item container gap={"12px"}>
+        <AirLineInfo />
+        <Grid
+          item
+          container
+          gap={"8px"}
+          style={{
+            background: "#FFE1C2",
+            borderRadius: "6px",
+            border: "1px solid #FFE1C2",
+            height: "52px",
+            padding: "8px 12px 8px 12px",
+          }}
+        >
           <Grid
             item
-            xs={3.89}
-            container
-            gap={"6px"}
+            xs={0.5}
             display={"flex"}
-            flexDirection={"column"}
+            justifyContent={"center"}
+            alignItems={"center"}
           >
-            <Grid item>
-              <Typography style={title6}>Turkish Airlines</Typography>
-            </Grid>
-            <Grid item>
-              <Typography style={title7}>Flight no : TUR467</Typography>
+            <Grid height={"20px"} width={"20px"}>
+              <img src="/warning.svg" height={"16.67px"} width={"16.67px"} />
             </Grid>
           </Grid>
-          <Grid
-            item
-            xs={3.89}
-            container
-            gap={"6px"}
-            display={"flex"}
-            flexDirection={"column"}
-          >
-            <Grid item>
-              <Typography style={title7}>
-                Airbus Industrie 737-800-738
-              </Typography>
-            </Grid>
-            <Grid item>
-              <Typography style={title7}>
-                Class :<span style={title6}>ECONOMY-Y (O)</span>
-              </Typography>
-            </Grid>
-          </Grid>
-          <Grid item xs={3.87} container gap={"6px"} display={"flex"}
-            flexDirection={"column"}>
-          <Grid item>
-              <Typography style={title7}>
-                Airbus Industrie 737-800-738
-              </Typography>
-            </Grid>
-            <Grid item>
-              <Typography style={title7}>
-                Class :<span style={title6}>ECONOMY-Y (O)</span>
-              </Typography>
-            </Grid>
+          <Grid item xs={11}>
+            <Typography style={title8}>
+              Technical stoppage at Malpensa International Airport (Milano).
+              Before booking this flight please check your visa requirements as
+              per your nationality
+            </Typography>
           </Grid>
         </Grid>
       </Grid>
