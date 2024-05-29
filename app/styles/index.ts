@@ -2,12 +2,12 @@ import { Cormorant_SC } from "next/font/google";
 
 export const navbar = {
   background: "white",
-  height: "12%",
+  height: "68px",
 };
 
 export const mainContainer = {
   background: "#EBF0F5",
-  height: "88%",
+  height: "655px",
 };
 
 export const secondContainer = {
@@ -137,3 +137,10 @@ export const airportStyle = {
   height: "40px",
   background: "#E8F3FF"
 };
+
+export const locationContainer ={
+  width:"32px",
+  display:'flex',
+  justifyContent:"center",
+  alignItems:"center"
+}

@@ -8,6 +8,7 @@ import {
   title2,
   title3,
 } from "../styles";
+import Location from "./Location";
 
 export default function FlightDetails() {
   return (
@@ -17,23 +18,7 @@ export default function FlightDetails() {
       style={{ height: "48px", padding: "4px 0px" }}
       gap={"12px"}
     >
-      <Grid
-        item
-        xs={0.5}
-        width={"32px"}
-        height={"36px"}
-        display={"flex"}
-        justifyContent={"center"}
-        alignItems={"center"}
-      >
-        <Grid width={"24px"} height={"24px"}>
-          <img
-            src="/location.svg"
-            style={{ height: "20px", width: "13.5px" }}
-          />
-          <Grid style={locationElipse}></Grid>
-        </Grid>
-      </Grid>
+      <Location/>
       <Grid item xs={11} container>
         <Grid
           item
