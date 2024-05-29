@@ -1,12 +1,14 @@
-import { Cormorant_SC } from "next/font/google";
-
 export const navbar = {
   background: "white",
   height: "68px",
 };
+export const topSection= {
+  background: "white",
+  height: "68px",
+  borderBottom: "1px solid #EBF0F5",
+}
 
-export const mainContainer = {
-  background: "#EBF0F5",
+export const bodyContainer = {
   height: "655px",
 };
 
@@ -135,12 +137,34 @@ export const airportStyle = {
   borderRadius: "6px",
   border: "1px solid #E8F3FF",
   height: "40px",
-  background: "#E8F3FF"
+  background: "#E8F3FF",
 };
 
-export const locationContainer ={
-  width:"32px",
-  display:'flex',
-  justifyContent:"center",
-  alignItems:"center"
+export const locationContainer = {
+  width: "32px",
+  display: "flex",
+  height:"36px",
+  justifyContent: "center",
+  alignItems: "center",
+};
+
+export const containerStyle = {
+  height: "100vh",
+  borderRadius: "16px",
+  border: "1px solid #EBF0F5",
+  background:"#EBF0F5"
+};
+
+export const historySidebar = {
+  padding: "20px 0px 20px 0px",
+  background: "#FFFFFF",
+  boxShadow: "0px 1px 2px 0px #1A2B3D14"
+}
+
+export const listContainer ={
+  height: "580px",
+  borderRadius: "8px",
+  border: "1px solid #FFFFFF",
+  boxShadow: "0px 2px 8px 0px #0000000A",
+  background:"#FFFFFF"
 }

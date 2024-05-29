@@ -2,9 +2,9 @@ import { Grid, Typography } from "@mui/material";
 import React from "react";
 import { colorTitle, title } from "../styles";
 
-export default function Navbar() {
+export default function Content() {
   return (
-    <Grid item container xs={7}>
+    <Grid item container lg={7} xs={12}>
       <Grid item xs={1}>
         <Typography style={title} textAlign={"left"}>
           Home
