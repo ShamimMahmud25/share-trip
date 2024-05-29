@@ -7,7 +7,7 @@ export const navbar = {
 
 export const mainContainer = {
   background: "#EBF0F5",
-  height: "675px",
+  height: "655px",
 };
 
 export const secondContainer = {
