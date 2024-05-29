@@ -70,7 +70,7 @@ export default function Details() {
                 <Grid
                   container
                   style={{
-                    height: "80%",
+                    height: "85%",
                     padding: "16px",
                     display: "flex",
                     justifyContent: "flex-start",
