@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
-import { circle, elipse, time, title2 } from "../styles";
+import { airtitle, circle, elipse, time, tripInfo } from "../styles";
 
 export default function Trip() {
   return (
@@ -9,7 +9,7 @@ export default function Trip() {
       style={{
         height: "76px",
         padding: "16px 20px",
-        borderBottom: "1px solid #EBF0F5"
+        borderBottom: "1px solid #EBF0F5",
       }}
       gap={"16px"}
     >
@@ -26,23 +26,14 @@ export default function Trip() {
           1
         </Typography>
       </Grid>
-      <Grid item container xs={10}>
+      <Grid item container xs={9.9}>
         <Grid item xs={12}>
-          <Typography
-            style={{
-              color: "black",
-              lineHeight: "24px",
-              fontSize: "18px",
-              fontWeight: "600",
-            }}
-          >
-            DAC → JFK
-          </Typography>
+          <Typography style={airtitle}>DAC → JFK</Typography>
         </Grid>
 
         <Grid container item>
           <Grid item xs={1.2}>
-            <Typography style={title2}>Round Trip</Typography>
+            <Typography style={tripInfo}>Round Trip</Typography>
           </Grid>
           <Grid
             item
@@ -57,7 +48,7 @@ export default function Trip() {
           </Grid>
 
           <Grid item xs={2.125}>
-            <Typography style={title2}>25 Mar - 4 Apr 2023</Typography>
+            <Typography style={tripInfo}>25 Mar - 4 Apr 2023</Typography>
           </Grid>
           <Grid
             item
@@ -71,7 +62,7 @@ export default function Trip() {
             <Grid style={elipse}></Grid>
           </Grid>
           <Grid item xs={2}>
-            <Typography style={title2}>1 stop</Typography>
+            <Typography style={tripInfo}>1 stop</Typography>
           </Grid>
         </Grid>
       </Grid>

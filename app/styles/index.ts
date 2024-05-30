@@ -1,13 +1,12 @@
-
 export const navbar = {
   background: "white",
   height: "68px",
 };
-export const topSection= {
+export const topSection = {
   background: "white",
   height: "68px",
   borderBottom: "1px solid #EBF0F5",
-}
+};
 
 export const bodyContainer = {
   height: "655px",
@@ -17,17 +16,18 @@ export const secondContainer = {
   width: "84%",
 };
 
-export const title = {
-  fontFamily: 'Murecho',
-  fontSize:"13px",
+export const menuTitle = {
+  fontFamily: "Murecho",
+  fontSize: "13px",
   lineHeight: "18px",
   color: "#5A6573",
 };
 export const colorTitle = {
   color: "#1882FF",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
   fontSize: "13px",
   lineHeight: "18px",
+  fontWeight: "600",
 };
 
 export const circle = {
@@ -57,9 +57,9 @@ export const locationElipse = {
   marginLeft: "3px",
 };
 
-export const title2 = {
+export const tripInfo = {
   fontSize: "13px",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
   lineHeight: "16px",
   color: "#5A6573",
   fontWeight: "400",
@@ -67,66 +67,66 @@ export const title2 = {
 
 export const time = {
   fontSize: "12px",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
   lineHeight: "16px",
   color: "#1882FF",
-  fontWeight: "475",
+  fontWeight: "600",
   padding: "4px 0px 2px 0px",
 };
 
 export const flightTitle = {
   fontSize: "13px",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
   lineHeight: "18px",
   color: "#1A2B3D",
-  fontWeight: "475",
+  fontWeight: "600",
 };
 export const terminalTitle = {
   fontSize: "13px",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
   lineHeight: "18px",
   color: "#5A6573",
-  fontWeight: "475",
+  fontWeight: "600",
 };
-export const title3 = {
+export const destinationInfo = {
   fontSize: "13px",
   lineHeight: "18px",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
   color: "#5A6573",
   fontWeight: "400",
 };
 
-export const title4 = {
+export const title = {
   fontSize: "16px",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
   lineHeight: "24px",
   color: "#1A2B3D",
   fontWeight: "600",
 };
-export const title5 = {
+export const timeInfo = {
   fontSize: "14px",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
   lineHeight: "20px",
   color: "#5A6573",
   fontWeight: "400",
 };
-export const title6 = {
+export const airInfoTitle = {
   fontSize: "14px",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
   lineHeight: "18px",
   color: "#3E4957",
-  fontWeight: "475",
+  fontWeight: "600",
 };
-export const title7 = {
+export const flightNoTitle = {
   fontSize: "14px",
   lineHeight: "18px",
   color: "#5A6573",
   fontWeight: "400",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
 };
-export const title8 = {
+export const info = {
   fontSize: "12px",
-  fontFamily: 'Murecho',
+  fontFamily: "Murecho",
   lineHeight: "16px",
   color: "#3E4957",
   fontWeight: "400",
@@ -153,7 +153,7 @@ export const airportStyle = {
 export const locationContainer = {
   width: "32px",
   display: "flex",
-  height:"36px",
+  height: "36px",
   justifyContent: "center",
   alignItems: "center",
 };
@@ -162,19 +162,25 @@ export const containerStyle = {
   height: "100vh",
   borderRadius: "16px",
   border: "1px solid #EBF0F5",
-  background:"#EBF0F5"
+  background: "#EBF0F5",
 };
 
 export const historySidebar = {
   padding: "20px 0px 20px 0px",
   background: "#FFFFFF",
-  boxShadow: "0px 1px 2px 0px #1A2B3D14"
-}
+  boxShadow: "0px 1px 2px 0px #1A2B3D14",
+};
 
-export const listContainer ={
+export const listContainer = {
   height: "580px",
   borderRadius: "8px",
   border: "1px solid #FFFFFF",
   boxShadow: "0px 2px 8px 0px #0000000A",
-  background:"#FFFFFF"
-}
+  background: "#FFFFFF",
+};
+export const airtitle = {
+  color: "#1A2B3D",
+  lineHeight: "24px",
+  fontSize: "18px",
+  fontWeight: "600",
+};
