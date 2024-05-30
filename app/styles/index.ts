@@ -70,7 +70,7 @@ export const time = {
   fontFamily: 'Murecho',
   lineHeight: "16px",
   color: "#1882FF",
-  fontWeight: "475",
+  fontWeight: "600",
   padding: "4px 0px 2px 0px",
 };
 
@@ -79,14 +79,14 @@ export const flightTitle = {
   fontFamily: 'Murecho',
   lineHeight: "18px",
   color: "#1A2B3D",
-  fontWeight: "475",
+  fontWeight: "600",
 };
 export const terminalTitle = {
   fontSize: "13px",
   fontFamily: 'Murecho',
   lineHeight: "18px",
   color: "#5A6573",
-  fontWeight: "475",
+  fontWeight: "600",
 };
 export const title3 = {
   fontSize: "13px",
@@ -115,7 +115,7 @@ export const title6 = {
   fontFamily: 'Murecho',
   lineHeight: "18px",
   color: "#3E4957",
-  fontWeight: "475",
+  fontWeight: "600",
 };
 export const title7 = {
   fontSize: "14px",
