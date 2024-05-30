@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
-import { airportStyle, flightTitle, title3 } from "../styles";
+import { airportStyle, flightTitle, destinationInfo } from "../styles";
 
 export default function Destination() {
   return (
@@ -28,12 +28,15 @@ export default function Destination() {
       <Grid item xs={11} container style={airportStyle} gap={"8px"}>
         <Grid item xs={5.9} height={"18px"}>
           <Typography style={flightTitle} textAlign={"left"}>
-          Destination at New York
+            Destination at New York
           </Typography>
         </Grid>
         <Grid item xs={5.9} height={"18px"}>
           <Typography style={flightTitle} textAlign={"right"}>
-          Terminal 4:<span style={title3}>John F Kennedy International Airport</span> 
+            Terminal 4:
+            <span style={destinationInfo}>
+              John F Kennedy International Airport
+            </span>
           </Typography>
         </Grid>
       </Grid>

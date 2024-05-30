@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
-import { title6, title7, title8 } from "../styles";
+import { info } from "../styles";
 import AirLineInfo from "./AirLineInfo";
 
 export default function AirLinesDetails() {
@@ -42,8 +42,8 @@ export default function AirLinesDetails() {
               <img src="/warning.svg" height={"16.67px"} width={"16.67px"} />
             </Grid>
           </Grid>
-          <Grid item xs={11}>
-            <Typography style={title8}>
+          <Grid item xs={11} height={"32px"}>
+            <Typography style={info}>
               Technical stoppage at Malpensa International Airport (Milano).
               Before booking this flight please check your visa requirements as
               per your nationality

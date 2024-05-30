@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
-import { airportStyle, flightTitle, locationElipse, title } from "../styles";
+import { airportStyle, flightTitle, menuTitle } from "../styles";
 import Location from "./Location";
 
 export default function Layover() {
@@ -18,7 +18,7 @@ export default function Layover() {
           </Typography>
         </Grid>
         <Grid item xs={5.9} height={"18px"}>
-          <Typography style={title} textAlign={"right"}>
+          <Typography style={menuTitle} textAlign={"right"}>
             Dubai International Airport
           </Typography>
         </Grid>

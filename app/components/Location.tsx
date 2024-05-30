@@ -4,11 +4,7 @@ import { locationContainer } from "../styles";
 
 export default function Location() {
   return (
-    <Grid
-      item
-      xs={0.5}
-      style={locationContainer}
-    >
+    <Grid item xs={0.5} style={locationContainer}>
       <img src="/location.svg" />
     </Grid>
   );

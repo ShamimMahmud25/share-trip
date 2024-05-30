@@ -1,5 +1,5 @@
 import { Grid } from "@mui/material";
-import { bodyContainer, secondContainer } from "../styles";
+import { bodyContainer } from "../styles";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
 
@@ -11,10 +11,20 @@ export default function BodySection() {
       display={"flex"}
       justifyContent={"center"}
     >
-      <Grid item container style={{ width: "84%",display:"flex", justifyContent:"flex-start",flexDirection:"row" }} gap={"20px"}>
-        <LeftSection/>
-         <RightSection/>
-        </Grid>
-     </Grid>
+      <Grid
+        item
+        container
+        style={{
+          width: "84%",
+          display: "flex",
+          justifyContent: "flex-start",
+          flexDirection: "row",
+        }}
+        gap={"20px"}
+      >
+        <LeftSection />
+        <RightSection />
+      </Grid>
+    </Grid>
   );
 }

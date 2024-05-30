@@ -1,10 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
-import {
-  flightTitle,
-  terminalTitle,
-  title3,
-} from "../styles";
+import { flightTitle, terminalTitle, destinationInfo } from "../styles";
 import Location from "./Location";
 
 export default function FlightDetails() {
@@ -35,7 +31,9 @@ export default function FlightDetails() {
         <Grid item xs={6}>
           <Typography style={terminalTitle} textAlign={"right"}>
             Terminal 1:{" "}
-            <span style={title3}>Hazrat Shahjalal International Airport</span>
+            <span style={destinationInfo}>
+              Hazrat Shahjalal International Airport
+            </span>
           </Typography>
         </Grid>
       </Grid>
