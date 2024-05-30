@@ -49,12 +49,12 @@ export default function AirLineInfo() {
           >
             <Grid item>
               <Typography style={title7}>
-                Airbus Industrie 737-800-738
+                {/* Airbus Industrie 737-800-738 */}
               </Typography>
             </Grid>
             <Grid item>
               <Typography style={title7}>
-                Class :<span style={title6}>ECONOMY-Y (O)</span>
+                {/* Class :<span style={title6}>ECONOMY-Y (O)</span> */}
               </Typography>
             </Grid>
           </Grid>
