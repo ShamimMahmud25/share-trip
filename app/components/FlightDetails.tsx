@@ -2,10 +2,7 @@ import { Grid, Typography } from "@mui/material";
 import React from "react";
 import {
   flightTitle,
-  locationElipse,
   terminalTitle,
-  title,
-  title2,
   title3,
 } from "../styles";
 import Location from "./Location";

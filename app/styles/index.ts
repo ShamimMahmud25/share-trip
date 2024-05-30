@@ -1,3 +1,4 @@
+
 export const navbar = {
   background: "white",
   height: "68px",
@@ -17,14 +18,14 @@ export const secondContainer = {
 };
 
 export const title = {
-  font: "Murecho",
-  //fontSize:"13px",
+  fontFamily: 'Murecho',
+  fontSize:"13px",
   lineHeight: "18px",
   color: "#5A6573",
 };
 export const colorTitle = {
   color: "#1882FF",
-  // font: "Murecho",
+  fontFamily: 'Murecho',
   fontSize: "13px",
   lineHeight: "18px",
 };
@@ -58,6 +59,7 @@ export const locationElipse = {
 
 export const title2 = {
   fontSize: "13px",
+  fontFamily: 'Murecho',
   lineHeight: "16px",
   color: "#5A6573",
   fontWeight: "400",
@@ -65,6 +67,7 @@ export const title2 = {
 
 export const time = {
   fontSize: "12px",
+  fontFamily: 'Murecho',
   lineHeight: "16px",
   color: "#1882FF",
   fontWeight: "475",
@@ -73,38 +76,43 @@ export const time = {
 
 export const flightTitle = {
   fontSize: "13px",
+  fontFamily: 'Murecho',
   lineHeight: "18px",
   color: "#1A2B3D",
   fontWeight: "475",
 };
 export const terminalTitle = {
   fontSize: "13px",
+  fontFamily: 'Murecho',
   lineHeight: "18px",
   color: "#5A6573",
   fontWeight: "475",
 };
 export const title3 = {
-  //font: "Murecho",
   fontSize: "13px",
   lineHeight: "18px",
+  fontFamily: 'Murecho',
   color: "#5A6573",
   fontWeight: "400",
 };
 
 export const title4 = {
   fontSize: "16px",
+  fontFamily: 'Murecho',
   lineHeight: "24px",
   color: "#1A2B3D",
   fontWeight: "600",
 };
 export const title5 = {
   fontSize: "14px",
+  fontFamily: 'Murecho',
   lineHeight: "20px",
   color: "#5A6573",
   fontWeight: "400",
 };
 export const title6 = {
   fontSize: "14px",
+  fontFamily: 'Murecho',
   lineHeight: "18px",
   color: "#3E4957",
   fontWeight: "475",
@@ -114,9 +122,11 @@ export const title7 = {
   lineHeight: "18px",
   color: "#5A6573",
   fontWeight: "400",
+  fontFamily: 'Murecho',
 };
 export const title8 = {
   fontSize: "12px",
+  fontFamily: 'Murecho',
   lineHeight: "16px",
   color: "#3E4957",
   fontWeight: "400",
